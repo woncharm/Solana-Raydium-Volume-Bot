@@ -18,9 +18,6 @@ export const retrieveEnvVariable = (variableName: string, logger: Logger) => {
 export interface Data {
   privateKey: string;
   pubkey: string;
-  solBalance: number | null;
-  tokenBuyTx: string | null,
-  tokenSellTx: string | null,
 }
 
 
